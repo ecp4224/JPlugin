@@ -66,7 +66,7 @@ public interface PluginLoader<T extends JPlugin> {
      * Unload a plugin from memory and remove it from the {@link ClassLoader}
      * @param plugin
      */
-    public void unloadPlugin(T plugin);
+    public void unloadJar(File plugin);
     
     /**
      * Set the {@link LoadType} this {@link PluginLoader} will use when loading Jar files.
