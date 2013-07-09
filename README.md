@@ -15,9 +15,7 @@ Example:
 Just be sure your MyPluginClass interface extends the JPlugin interface
 
     public interface Plugin extends JPlugin {
-        public void onLoad();
-        
-        public File getFile();
+        ...
     }
     
 If your Plugin class is an abstract class, just implement the JPlugin class instead.
