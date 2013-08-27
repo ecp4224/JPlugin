@@ -3,7 +3,7 @@ JPlugin
 
 A universal plugin loader for Java
 
-#Using with your Program
+#Usage
 Using JPlugin with your program is very easy! Simply use the SimplePluginLoader to load the jars and load your plugins
 
 Example:
